@@ -1,6 +1,6 @@
 add-type -AssemblyName System.Windows.Forms
 
-while (true) {
+while ($true) {
     # shift key 押す
     [System.Windows.Forms.SendKeys]::SendWait("+")
     # 日付Get
