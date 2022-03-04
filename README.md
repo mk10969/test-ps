@@ -2,5 +2,5 @@
 
 run command
 ```
-powershell -File .\loop.ps1
+PowerShell -ExecutionPolicy RemoteSigned -File .\loop.ps1
 ```
